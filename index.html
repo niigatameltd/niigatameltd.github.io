@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Эта строка делает сайт адаптивным под экраны телефонов -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои Документы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pdf-button {
+            display: block;
+            width: 100%;
+            max-width: 350px;
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 18px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .pdf-button:hover {
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: #333;">Список файлов</h2>
+
+    <!-- Замените названия файлов (href="...") на те, что вы загрузили на Шаге 1 -->
+    <!-- Атрибут target="_blank" заставляет браузер открывать PDF сразу, а не скачивать -->
+    
+    <a href="СОП Анафилактический шок.pdf" target="_blank" class="pdf-button">СОП Анафилактический шок</a>
+    
+    <a href="СОП Гипогликемическая кома.pdf" target="_blank" class="pdf-button">СОП Гипогликемическая кома</a>
+    
+
+</body>
+</html>
